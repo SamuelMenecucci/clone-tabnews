@@ -1,0 +1,4 @@
+//the files with 'rc' are files with instructions with inicialization commands (.bashrc, .vimrc, .npmrc. rc means 'Run Commands')
+//this files, when run 'nvm install' will install the especific node version.
+
+lts/hydrogen
