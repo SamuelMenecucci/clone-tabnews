@@ -1,0 +1,6 @@
+node_modules
+
+# para que eu consiga adicionar alterações em um arquivo utilizando um commit que já existe, como por exemplo,  adicionar um commit com alterações dentro do .gitignore, porém ao invés de criar um novo commit eu adiciono as alterações no commit que já foi feito anteriormente, basta eu dar commit com a flag --amend.
+# dessa forma, se eu tiver um commit no arquivo com um determinado hash, ao invés do git adidcionar um novo commit, ele mantem o commit com a mensagem anterior, porém com as novas alterações e muda o hash do commit. 
+# ou seja, quando eu adiciono o --amend, ele vai pegar o que estiver 'staged' e vai 'emendar' com o commit anterior. 
+.next
